@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Библиотека</string>
+
+    <!-- Навигация -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_catalog">Каталог</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Авторизация и регистрация -->
+    <string name="login_title">Вход в библиотеку</string>
+    <string name="login_subtitle">Войдите в свой читательский аккаунт</string>
+    <string name="register_title">Регистрация читателя</string>
+    <string name="register_subtitle">Создайте аккаунт для доступа к книгам</string>
+    <string name="hint_name">Ваше имя и фамилия</string>
+    <string name="hint_email">Электронная почта (Email)</string>
+    <string name="hint_password">Пароль (минимум 4 символа)</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_register">Зарегистрироваться</string>
+    <string name="go_to_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="go_to_login">Уже есть аккаунт? Войти</string>
+    <string name="admin_hint">Демо-администратор: admin@library.ru / admin123</string>
+
+    <!-- Ошибки валидации -->
+    <string name="error_empty_fields">Пожалуйста, заполните все поля</string>
+    <string name="error_invalid_email">Введите корректный адрес почты</string>
+    <string name="error_short_password">Пароль должен содержать минимум 4 символа</string>
+    <string name="error_wrong_credentials">Неверная почта или пароль</string>
+    <string name="error_email_exists">Пользователь с такой почтой уже зарегистрирован</string>
+
+    <!-- Главная и Каталог -->
+    <string name="home_welcome">Добро пожаловать в Библиотеку</string>
+    <string name="home_recommended">Популярные книги</string>
+    <string name="home_categories_title">Разделы библиотеки</string>
+    <string name="search_hint">Поиск по названию или автору…</string>
+    <string name="all_categories">Все категории</string>
+    <string name="empty_books">Книги не найдены</string>
+    <string name="empty_favorites">В избранном пока пусто.\nДобавляйте понравившиеся книги!</string>
+
+    <!-- Карточка книги -->
+    <string name="book_details_title">О книге</string>
+    <string name="status_available_text">В наличии (%1$d шт.)</string>
+    <string name="status_unavailable_text">Нет в наличии</string>
+    <string name="btn_borrow">Взять книгу</string>
+    <string name="btn_already_borrowed">Книга уже у вас на руках</string>
+    <string name="btn_add_favorite">В избранное</string>
+    <string name="btn_remove_favorite">Убрать из избранного</string>
+    <string name="msg_book_borrowed">Вы успешно взяли книгу! Она отображается в профиле.</string>
+    <string name="msg_book_returned">Книга возвращена в библиотеку.</string>
+    <string name="msg_added_favorite">Добавлено в избранное</string>
+    <string name="msg_removed_favorite">Удалено из избранного</string>
+
+    <!-- Профиль -->
+    <string name="profile_role_admin">Роль: Администратор</string>
+    <string name="profile_role_user">Роль: Читатель</string>
+    <string name="btn_admin_panel">Панель администратора</string>
+    <string name="btn_logout">Выйти из аккаунта</string>
+    <string name="my_borrowed_books">Мои книги и история выдачи</string>
+    <string name="empty_history">Вы ещё не брали книги в библиотеке</string>
+    <string name="btn_return_book">Вернуть книгу</string>
+    <string name="status_on_hands">На руках (взята: %1$s)</string>
+    <string name="status_returned">Возвращена (%1$s)</string>
+
+    <!-- Панель администратора -->
+    <string name="admin_panel_title">Панель администратора</string>
+    <string name="admin_tab_books">Книги</string>
+    <string name="admin_tab_categories">Категории</string>
+    <string name="admin_tab_users">Читатели</string>
+    <string name="admin_tab_borrowings">Выдачи</string>
+    <string name="btn_add_book">+ Добавить книгу</string>
+    <string name="btn_add_category">+ Добавить категорию</string>
+    <string name="dialog_add_book">Новая книга</string>
+    <string name="dialog_edit_book">Редактировать книгу</string>
+    <string name="hint_book_title">Название книги</string>
+    <string name="hint_book_author">Автор</string>
+    <string name="hint_book_desc">Краткое описание</string>
+    <string name="hint_book_copies">Количество экземпляров</string>
+    <string name="hint_book_cover">Номер обложки (1–6)</string>
+    <string name="dialog_add_category">Новая категория</string>
+    <string name="dialog_edit_category">Редактировать категорию</string>
+    <string name="hint_category_name">Название категории</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+</resources>
